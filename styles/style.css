@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+.grid {
+  font-size: 1.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.tile {
+  flex-wrap: wrap;
+  background-color: black;
+}
