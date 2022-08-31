@@ -26,11 +26,13 @@ p, input {
 
 input {
   width: 100px;
+  height: auto;
+  text-align: center;
 }
 
 .container {
-  display: flex;
-  margin: 4em;
+  height: 100vh;
+  margin-top: 1em;
 }
 
 .wrapper {
@@ -47,18 +49,18 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3em;
+  gap: 2em;
   flex: 1;
   border: 1px solid red;
-  padding: 3em;
+  padding: 2em;
   background-color: red;
   border-radius: 10px;
 }
 
 .screen {
   display: grid;
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
 }
 
 .sizing {
