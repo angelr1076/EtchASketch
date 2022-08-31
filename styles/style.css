@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0; 
@@ -6,23 +9,101 @@
 
 html {
   font-size: 10px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
   font-size: 3rem;
 }
 
-.grid {
-  /* font-size: 1.6rem; */
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.1em;
-  border: 2px solid black;
-  background-color: lightgrey;
-  flex: 0 0 32em;
+h2 {
+  font-size: 2rem;
 }
 
-.fill {
-  flex-wrap: wrap;
+p, input {
+  font-size: 1.8rem;
+}
+
+input {
+  width: 100px;
+}
+
+.container {
+  display: flex;
+  margin: 4em;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  flex: 1;
+}
+
+.case {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  flex: 1;
+  border: 1px solid red;
+  padding: 3em;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.screen {
+  display: grid;
+  width: 600px;
+  height: 600px;
+}
+
+.sizing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  gap: 1em;
+}
+
+.button-container {
+  display: flex;
+  gap: 2em;
+}
+
+.title {
+  color: #fff;
+}
+
+button {
+  font-size: 1.6rem;
+  padding: 0.75em;
+  /* margin: 0.5em; */
+  color: #fff;
+  border-radius: 3px;
+  border: none;
+}
+
+button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.black {
   background-color: black;
+}
+
+.random {
+  background-color: blue;
+}
+
+.erase {
+  background-color: orange;
+}
+
+.clear {
+  background-color: gray;
 }

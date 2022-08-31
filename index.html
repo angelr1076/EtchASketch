@@ -9,11 +9,28 @@
   <script type="text/javascript" src="js/main.js" defer></script>
 </head>
 <body>
-  <h1 class="title">Etch A Sketch</h1>
   <div class="container">
-    <button id="user-input" class="btn user-input" value="Grid Size">Grid Size</button>
-    <div id="grid" class="grid">
-
+    <div class="wrapper">
+      <p>Tap the screen to draw. Tap again to lift the pen.</p>
+      <div class="case">
+        <h1 class="title">Etch A Sketch</h1>
+        <div class="cursor">
+          <h2 class="cursor-status"></h2>
+        </div>
+          <div class="screen"> 
+          </div>
+          <div class="button-container">
+            <button class="black" value="black">Black</button>
+            <button class="random" value="random">Random</button>
+            <button class="erase" value="gray">Erase</button>
+            <button class="clear" value="clear">Clear Board</button>
+          </div>
+          <div class="sizing">
+            <p>Set pixel size then tap Enter.</p>
+            <p>Note: The screen will not change in size.</p>
+            <input class="input" type="text" placeholder="size of board" value="16">
+          </div>
+        </div>
     </div>
   </div>
 </body>
